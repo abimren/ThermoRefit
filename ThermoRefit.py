@@ -1,5 +1,5 @@
 """
-*ThermoRefit v2.2
+*ThermoRefit v1.0
  author: abdurrahman.imren @ WA,USA Nov 2021
 *
 *chem.inp (we read only species information) and therm.dat files are read.
