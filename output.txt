@@ -1,0 +1,138 @@
+SPECIES data is being read
+Number of species: 53
+END of reading chem.inp
+
+THERMO data is being read
+Tmin 300.0 Tmid 1000.0 Tmax 5000.0
+O                 L 1/90O   1               G   200.000  3500.000  1000.000    
+O2                TPIS89O   2               G   200.000  3500.000  1000.000    
+H                 L 7/88H   1               G   200.000  3500.000  1000.000    
+H2                TPIS78H   2               G   200.000  3500.000  1000.000    
+OH                RUS 78O   1H   1          G   200.000  3500.000  1000.000    
+H2O               L 8/89H   2O   1          G   200.000  3500.000  1000.000    
+HO2               L 5/89H   1O   2          G   200.000  3500.000  1000.000    
+H2O2              L 7/88H   2O   2          G   200.000  3500.000  1000.000    
+C                 L11/88C   1               G   200.000  3500.000  1000.000    
+CH                TPIS79C   1H   1          G   200.000  3500.000  1000.000    
+CH2               L S/93C   1H   2          G   200.000  3500.000  1000.000    
+CH2(S)            L S/93C   1H   2          G   200.000  3500.000  1000.000    
+CH3               L11/89C   1H   3          G   200.000  3500.000  1000.000    
+CH4               L 8/88C   1H   4          G   200.000  3500.000  1000.000    
+CO                TPIS79C   1O   1          G   200.000  3500.000  1000.000    
+CO2               L 7/88C   1O   2          G   200.000  3500.000  1000.000    
+HCO               L12/89H   1C   1O   1     G   200.000  3500.000  1000.000    
+CH2O              L 8/88H   2C   1O   1     G   200.000  3500.000  1000.000    
+CH2OH             GUNL93C   1H   3O   1     G   200.000  3500.000  1000.000    
+CH3O              121686C   1H   3O   1     G   200.00   3000.00   1000.000    
+CH3OH             L 8/88C   1H   4O   1     G   200.000  3500.000  1000.000    
+C2H               L 1/91C   2H   1          G   200.000  3500.000  1000.000    
+C2H2              L 1/91C   2H   2          G   200.000  3500.000  1000.000    
+C2H3              L 2/92C   2H   3          G   200.000  3500.000  1000.000    
+C2H4              L 1/91C   2H   4          G   200.000  3500.000  1000.000    
+C2H5              L12/92C   2H   5          G   200.000  3500.000  1000.000    
+C2H6              L 8/88C   2H   6          G   200.000  3500.000  1000.000    
+CH2CO             L 5/90C   2H   2O   1     G   200.000  3500.000  1000.000    
+HCCO              SRIC91H   1C   2O   1     G   200.00   4000.00   1000.000    
+HCCOH              SRI91C   2O   1H   2     G   200.000  5000.000  1000.000    
+H2CN               41687H   2C   1N   1     G   200.00   4000.000  1000.000    
+HCN               GRI/98H   1C   1N   1     G   200.000  6000.000  1000.000    
+HNO               And93 H   1N   1O   1     G   200.000  6000.000  1000.000    
+N                 L 6/88N   1               G   200.000  6000.000  1000.000    
+NNH               T07/93N   2H   1          G   200.000  6000.000  1000.000    
+N2O               L 7/88N   2O   1          G   200.000  6000.000  1000.000    
+NH                And94 N   1H   1          G   200.000  6000.000  1000.000    
+NH2               And89 N   1H   2          G   200.000  6000.000  1000.000    
+NH3               J 6/77N   1H   3          G   200.000  6000.000  1000.000    
+NO                RUS 78N   1O   1          G   200.000  6000.000  1000.000    
+NO2               L 7/88N   1O   2          G   200.000  6000.000  1000.000    
+HCNO              BDEA94H   1N   1C   1O   1G   200.000  5000.000  1382.000    
+HCNO - Tbreak( 1382.0 K) is different from Tmid. Check disc at common Tmid: 1000.0 K!
+HCNO - ATOL > 0.0001 : Discontinuity exists at Tb( 1000.0 K)
+	Cp discontinuity abs err: 0.13567256489999657
+	H discontinuity abs err: 0.020003839286662696
+	S discontinuity abs err: 0.018107350776809028
+HOCN              BDEA94H   1N   1C   1O   1G   200.000  5000.000  1368.000    
+HOCN - Tbreak( 1368.0 K) is different from Tmid. Check disc at common Tmid: 1000.0 K!
+HOCN - ATOL > 0.0001 : Discontinuity exists at Tb( 1000.0 K)
+	Cp discontinuity abs err: 0.1275594205000008
+	H discontinuity abs err: 0.01764878004999946
+	S discontinuity abs err: 0.016068230166560227
+HNCO              BDEA94H   1N   1C   1O   1G   200.000  5000.000  1478.000    
+HNCO - Tbreak( 1478.0 K) is different from Tmid. Check disc at common Tmid: 1000.0 K!
+HNCO - ATOL > 0.0001 : Discontinuity exists at Tb( 1000.0 K)
+	Cp discontinuity abs err: 0.11533760945000182
+	H discontinuity abs err: 0.012539147393332313
+	S discontinuity abs err: 0.01163525623176298
+NCO               EA 93 N   1C   1O   1     G   200.000  6000.000  1000.000    
+CN                HBH92 C   1N   1          G   200.000  6000.000  1000.000    
+HCNN              SRI/94C   1N   2H   1     G   200.000  5000.000  1000.000    
+N2                121286N   2               G   200.000  5000.000  1000.000    
+AR                120186AR  1               G   200.000  5000.000  1000.000    
+C3H8              L 4/85C   3H   8          G   200.000  5000.000  1000.000    
+C3H7              L 9/84C   3H   7          G   200.000  5000.000  1000.000    
+CH3CHO            L 8/88C   2H   4O   1     G   200.000  6000.000  1000.000    
+CH2CHO            SAND86O   1H   3C   2     G   200.000  5000.000  1000.000    
+END of reading therm.dat
+
+Good to go with O - Writing into newtherm.dat
+Good to go with O2 - Writing into newtherm.dat
+Good to go with H - Writing into newtherm.dat
+Good to go with H2 - Writing into newtherm.dat
+Good to go with OH - Writing into newtherm.dat
+Good to go with H2O - Writing into newtherm.dat
+Good to go with HO2 - Writing into newtherm.dat
+Good to go with H2O2 - Writing into newtherm.dat
+Good to go with C - Writing into newtherm.dat
+Good to go with CH - Writing into newtherm.dat
+Good to go with CH2 - Writing into newtherm.dat
+Good to go with CH2(S) - Writing into newtherm.dat
+Good to go with CH3 - Writing into newtherm.dat
+Good to go with CH4 - Writing into newtherm.dat
+Good to go with CO - Writing into newtherm.dat
+Good to go with CO2 - Writing into newtherm.dat
+Good to go with HCO - Writing into newtherm.dat
+Good to go with CH2O - Writing into newtherm.dat
+Good to go with CH2OH - Writing into newtherm.dat
+Good to go with CH3O - Writing into newtherm.dat
+Good to go with CH3OH - Writing into newtherm.dat
+Good to go with C2H - Writing into newtherm.dat
+Good to go with C2H2 - Writing into newtherm.dat
+Good to go with C2H3 - Writing into newtherm.dat
+Good to go with C2H4 - Writing into newtherm.dat
+Good to go with C2H5 - Writing into newtherm.dat
+Good to go with C2H6 - Writing into newtherm.dat
+Good to go with CH2CO - Writing into newtherm.dat
+Good to go with HCCO - Writing into newtherm.dat
+Good to go with HCCOH - Writing into newtherm.dat
+Good to go with H2CN - Writing into newtherm.dat
+Good to go with HCN - Writing into newtherm.dat
+Good to go with HNO - Writing into newtherm.dat
+Good to go with N - Writing into newtherm.dat
+Good to go with NNH - Writing into newtherm.dat
+Good to go with N2O - Writing into newtherm.dat
+Good to go with NH - Writing into newtherm.dat
+Good to go with NH2 - Writing into newtherm.dat
+Good to go with NH3 - Writing into newtherm.dat
+Good to go with NO - Writing into newtherm.dat
+Good to go with NO2 - Writing into newtherm.dat
+Refitting - HCNO
+Tmin,Tmax 200.0 5000.0
+Tbreak,Tmid 1382.0 1000.0
+HCNO RMS errors of CP: 3.6494E-03,H: 1.8951E-04,S: 1.2036E-04
+Refitting - HOCN
+Tmin,Tmax 200.0 5000.0
+Tbreak,Tmid 1368.0 1000.0
+HOCN RMS errors of CP: 3.6288E-03,H: 5.0792E-03,S: 1.1315E-04
+Refitting - HNCO
+Tmin,Tmax 200.0 5000.0
+Tbreak,Tmid 1478.0 1000.0
+HNCO RMS errors of CP: 3.7656E-03,H: 2.4467E-03,S: 1.2992E-04
+Good to go with NCO - Writing into newtherm.dat
+Good to go with CN - Writing into newtherm.dat
+Good to go with HCNN - Writing into newtherm.dat
+Good to go with N2 - Writing into newtherm.dat
+Good to go with AR - Writing into newtherm.dat
+Good to go with C3H8 - Writing into newtherm.dat
+Good to go with C3H7 - Writing into newtherm.dat
+Good to go with CH3CHO - Writing into newtherm.dat
+Good to go with CH2CHO - Writing into newtherm.dat
