@@ -1,5 +1,5 @@
 """
-*ThermoRefit v1.0
+*ThermoRefit v1.0.1
  author: abdurrahman.imren @ WA,USA Nov 2021
 *
 *chem.inp (we read only species information) and therm.dat files are read.
@@ -15,7 +15,7 @@
 *1- if discontinuity exists at specie mid temperature (called Tbreak)
 *2- if discontinuity exists at common mid temperature (called Tmid) 
 *   when Tbreak is different than Tmid. This test is specifically
-*   for OpenFOAM (or other CFD software where only common Tmid is used and
+*   for software where only common Tmid is used and
 *   specie specific temperature inputs are ignored). Here, we check if
 *   extrapolated curves (from Tbreak to Tmid) would create artificial
 *   discontinuity. To use this feature: set TmidRefit=True @ line 71-72
@@ -37,7 +37,7 @@
 * 3. atol and rtol values can be set @ line 133. Default value is 1e-4
 * Output files are newtherm.dat and therm_duplicates.dat.
 * Only species listed in chem.inp are written in newtherm.dat
-* Plots of refitted species are collected in 'Plots' folder.
+* Plots of refitted species are collected in 'plots' folder.
 *
 * Features:
 * - while reading chem.inp, duplicates are not allowed (we are using set())
@@ -55,8 +55,8 @@
     If there exists a missing line or coefficient or can't read any
     coefficient, we raise 'ERROR'
 * - if specie Tbreak >= Tmax, corresponding data is flagged to 'no refit'
-* - with TmidRefit=True option, we write in OpenFOAM CK interpreter format 
-*   in which no exclamation marks (or any user entry) are accepted after column 80
+* - with TmidRefit=True option, we write in a format 
+*   that no exclamation marks (or any user entry) are accepted after column 80
 *   (although this fix may not necessarily provide an exact OpenFOAM CK format,
 *    it reduces compatibility issues significantly)
 """
