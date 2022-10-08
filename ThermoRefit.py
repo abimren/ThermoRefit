@@ -67,9 +67,9 @@ from scipy.linalg import lapack
 from os.path import exists as file_exists
 
 # User option for refit if Tmid common .ne. specie Tmid (Tbreak)
-# True is for OpenFOAM simulations where only common Tmid is used
-#TmidRefit=False
-TmidRefit=True
+# 'True' is if only common Tmid is desired
+TmidRefit=False
+#TmidRefit=True
 def isfloat(value):
   try:
     float(value)
