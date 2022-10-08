@@ -21,8 +21,7 @@ ThermoRefit can check discontinuities at both midpoint temperature values:
 2. If exists at common mid temperature (Tmid-common)
 when Tmid-specie is different than Tmid-common. 
 
-Second test is specifically for OpenFOAM 
-(or other CFD software where only common Tmid is used and specie specific temperature inputs are ignored (assuming that this modification provides a better CFD performance)). 
+Second test is specifically for software where only common Tmid is used and specie specific temperature inputs are ignored. 
 Here, we check if extrapolated curves (from Tmid-specie to Tmid-common) would create artificial discontinuity.
 An illustration is given below.
 
@@ -67,7 +66,7 @@ Tested mechanisms are listed in ***Imren (2022)***.
 - if specie phase is not given or its position changed, we do not fill it with "G" - default gas phase. We raise "ERROR" to correct its position and manually check given data to ensure that neighbor temperature inputs are OK
 - while reading coefficients, we strictly apply two temperature-ranges. If extra coefficient line is found, "WARNING" is raised and that line is ignored. If there exists a missing line or coefficient or can't read any coefficient, we raise "ERROR"
 - if specie Tbreak >= Tmax, corresponding data is flagged to "no refit"
-- with "**TmidRefit=True**" option, we write "**newtherm.dat**" in OpenFOAM CHEMKIN (CK) interpreter format in which no exclamation marks (or any user entry) are accepted after column 80 (although this fix may not necessarily provide an exact OpenFOAM CK format, it reduces compatibility issues significantly)
+- with "**TmidRefit=True**" option, we write "**newtherm.dat**" in a format that no exclamation marks (or any user entry) are accepted after column 80 (although this fix may not necessarily provide an exact OpenFOAM CK format, it reduces compatibility issues significantly)
 [^1]: Kee, R.J., Rupley, F.M., , Miller, J.A.: CHEMKIN-II: A FORTRAN chemical kinetics package for the
 analysis of gas-phase chemical kinetics. Technical Report SAND89-8009, Sandia National Laboratories
 (1990).
