@@ -56,7 +56,7 @@
     coefficient, we raise 'ERROR'
 * - if specie Tbreak >= Tmax, corresponding data is flagged to 'no refit'
 * - OpenFOAM CK format might not accept exclamation marks (or any user entry)
-*   after column 80 in "newtherm.dat". Feel free to remove comments added 
+*   after column 80 in "newtherm.dat". Feel free to remove !RF comments added 
 *   after refitting. It may reduce compatibility issues.
 *
 """
