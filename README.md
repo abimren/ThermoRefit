@@ -66,7 +66,7 @@ Tested mechanisms are listed in ***Imren (2022)***.
 - if specie phase is not given or its position changed, we do not fill it with "G" - default gas phase. We raise "ERROR" to correct its position and manually check given data to ensure that neighbor temperature inputs are OK
 - while reading coefficients, we strictly apply two temperature-ranges. If extra coefficient line is found, "WARNING" is raised and that line is ignored. If there exists a missing line or coefficient or can't read any coefficient, we raise "ERROR"
 - if specie Tbreak >= Tmax, corresponding data is flagged to "no refit"
-- OpenFOAM CK format might not accept exclamation marks (or any user entry) after column 80 in "**newtherm.dat**". Feel free to remove comments added after refitting.
+- OpenFOAM CK format might not accept exclamation marks (or any user entry) after column 80 in "**newtherm.dat**". Feel free to remove !RF comments added after refitting.
 [^1]: Kee, R.J., Rupley, F.M., , Miller, J.A.: CHEMKIN-II: A FORTRAN chemical kinetics package for the
 analysis of gas-phase chemical kinetics. Technical Report SAND89-8009, Sandia National Laboratories
 (1990).
