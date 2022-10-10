@@ -55,10 +55,10 @@
     If there exists a missing line or coefficient or can't read any
     coefficient, we raise 'ERROR'
 * - if specie Tbreak >= Tmax, corresponding data is flagged to 'no refit'
-* - with TmidRefit=True option, we write in a format 
-*   that no exclamation marks (or any user entry) are accepted after column 80
-*   (although this fix may not necessarily provide an exact OpenFOAM CK format,
-*    it reduces compatibility issues significantly)
+* - OpenFOAM CK format might not accept exclamation marks (or any user entry)
+*   after column 80 in "newtherm.dat". Feel free to remove comments added 
+*   after refitting. It may reduce compatibility issues.
+*
 """
 import os.path
 import numpy as np
